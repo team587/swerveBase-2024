@@ -29,20 +29,20 @@
 
 
 namespace DriveConstants {
-constexpr int kFrontLeftDriveMotorPort = 11;
-constexpr int kRearLeftDriveMotorPort = 13;
-constexpr int kFrontRightDriveMotorPort = 15;
-constexpr int kRearRightDriveMotorPort = 17;
+constexpr int kFrontLeftDriveMotorPort = 18;
+constexpr int kRearLeftDriveMotorPort = 16;
+constexpr int kFrontRightDriveMotorPort = 11;
+constexpr int kRearRightDriveMotorPort = 13;
 
-constexpr int kFrontLeftTurningMotorPort = 12;
-constexpr int kRearLeftTurningMotorPort = 14;
-constexpr int kFrontRightTurningMotorPort = 16;
-constexpr int kRearRightTurningMotorPort = 18;
+constexpr int kFrontLeftTurningMotorPort = 17;
+constexpr int kRearLeftTurningMotorPort = 15;
+constexpr int kFrontRightTurningMotorPort = 12;
+constexpr int kRearRightTurningMotorPort = 14;
 
-constexpr int kFrontLeftAbsoluteEncoderPort = 21;
-constexpr int kFrontRightAbsoluteEncoderPort = 23;
-constexpr int kRearLeftAbsoluteEncoderPort = 22;
-constexpr int kRearRightAbsoluteEncoderPort = 24;
+constexpr int kFrontLeftAbsoluteEncoderPort = 23;
+constexpr int kFrontRightAbsoluteEncoderPort = 22;
+constexpr int kRearLeftAbsoluteEncoderPort = 24;
+constexpr int kRearRightAbsoluteEncoderPort = 21;
 
 
 constexpr bool kFrontLeftTurningEncoderReversed = false;
@@ -52,8 +52,8 @@ constexpr bool kRearRightTurningEncoderReversed = false;
 
 constexpr bool kFrontLeftDriveEncoderReversed = false;
 constexpr bool kRearLeftDriveEncoderReversed = false;
-constexpr bool kFrontRightDriveEncoderReversed = true;
-constexpr bool kRearRightDriveEncoderReversed = true;
+constexpr bool kFrontRightDriveEncoderReversed = false;
+constexpr bool kRearRightDriveEncoderReversed = false;
 
 // These are example values only - DO NOT USE THESE FOR YOUR OWN ROBOT!
 // These characterization values MUST be determined either experimentally or
